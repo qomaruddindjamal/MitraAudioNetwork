@@ -9,6 +9,6 @@
     "command": "cargo clippy --workspace --all-targets -- -D warnings",
     "returncode": 0,
     "passed": true,
-    "output_tail": "    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s\n"
+    "output_tail": "    Checking mitra-core v0.1.0 (C:\\MitraAudio\\crates\\mitra-core)\n    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.28s\n"
   }
 }

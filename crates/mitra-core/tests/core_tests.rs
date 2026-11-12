@@ -486,4 +486,34 @@ fn test_mitra_license_additional_forensic_and_security_cases() {
         off_res.is_ok(),
         "Offline verification with public key must succeed without network"
     );
+
+    // 8. Uji Penegakan Entitlement Server-Side & Restriksi Demo/Trial
+    // Verifikasi bahwa Demo/Trial tidak diperkenankan mengakses WEB_MANAGEMENT
+    let mut demo_payload = lic.payload.clone();
+    demo_payload.license_type = "demo".to_string();
+    demo_payload.entitlements.push("WEB_MANAGEMENT".to_string());
+    let demo_lic = SignedMitraLicense {
+        payload: demo_payload,
+        signature_bytes: [0u8; 64],
+    };
+    let demo_check = verifier.check_entitlement(&demo_lic, "WEB_MANAGEMENT");
+    assert!(
+        matches!(demo_check, Err(LicenseError::FeatureNotEntitled(_))),
+        "Demo licenses must be strictly restricted from permanent WEB_MANAGEMENT entitlement"
+    );
+
+    // Verifikasi bahwa lisensi permanent dengan hak akses WEB_MANAGEMENT lolos pengecekan
+    let mut perm_payload = lic.payload.clone();
+    perm_payload.license_type = "permanent".to_string();
+    perm_payload.entitlements.push("WEB_MANAGEMENT".to_string());
+    let perm_lic = SignedMitraLicense {
+        payload: perm_payload,
+        signature_bytes: [0u8; 64],
+    };
+    assert!(
+        verifier
+            .check_entitlement(&perm_lic, "WEB_MANAGEMENT")
+            .is_ok(),
+        "Permanent license with WEB_MANAGEMENT must pass"
+    );
 }

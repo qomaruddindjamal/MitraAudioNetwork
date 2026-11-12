@@ -510,6 +510,17 @@ impl LicenseVerifier {
         license: &SignedMitraLicense,
         feature_name: &str,
     ) -> Result<(), LicenseError> {
+        // Enforce: Demo and Trial licenses cannot access restricted permanent entitlements
+        let lic_type_lower = license.payload.license_type.to_ascii_lowercase();
+        if (lic_type_lower == "demo" || lic_type_lower == "trial")
+            && feature_name == ENTITLEMENT_WEB_MANAGEMENT
+        {
+            return Err(LicenseError::FeatureNotEntitled(format!(
+                "{}: demo/trial licenses are restricted from permanent web management",
+                feature_name
+            )));
+        }
+
         if !license
             .payload
             .entitlements
