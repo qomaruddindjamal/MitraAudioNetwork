@@ -1,0 +1,14 @@
+[package]
+name = "mitra-sdk-c"
+version = "0.1.0"
+edition = "2021"
+description = "Drop-in 32-bit x86 C-ABI FFI replacement for IPNBSSDK.dll"
+authors = ["Mitra Audio Network System Engineering Team"]
+
+[lib]
+name = "IPNBSSDK"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+mitra-core = { path = "../mitra-core" }
+mitra-pal = { path = "../mitra-pal" }

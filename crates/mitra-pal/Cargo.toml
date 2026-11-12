@@ -1,0 +1,8 @@
+[package]
+name = "mitra-pal"
+version = "0.1.0"
+edition = "2021"
+description = "Platform Abstraction Layer traits for Mitra Audio Network System"
+authors = ["Mitra Audio Network System Engineering Team"]
+
+[dependencies]

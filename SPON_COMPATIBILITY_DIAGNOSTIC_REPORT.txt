@@ -1,0 +1,27 @@
+====================================================
+  SPON NATIVE COMPATIBILITY DIAGNOSTIC REPORT
+====================================================
+
+Waktu Uji: SystemTime { intervals: 134389342834179142 }
+Target Instalasi: C:\IPNBS
+Server Present: true
+Station Present: true
+SDK Present: true
+ET99 Dongle DLL Present: true
+Historical INI Serial: 64E8A-A8F0C-2B1EC-BC7DC-0B05 (UNVERIFIED_HISTORICAL_REFERENCE)
+Compatibility Status: CHECKS_COMPLETED (READ_ONLY_DIAGNOSTICS)
+
+LOG RINCI DIAGNOSTIK:
+- [SPON-CHECK] Menjalankan Diagnostic & Compatibility Matrix SPON...
+- 1. Target Environment: C:\IPNBS
+- 2. Server Binary: VALID | Station Binary: VALID
+- 3. Hardware Dongle DLL (FT_ET99_API.dll): PRESENT (Physical Token Required for Hardware Mode)
+- 4. Serial Evaluated: 64E8A-A8F0C-2B1EC-BC7DC-0B05 [Classification: UNVERIFIED_HISTORICAL_REFERENCE]
+-    -> Format Pola: TIDAK SESUAI skema 29 karakter legacy IPNBS_Server.exe
+- 5. Status Verifikasi Otoritas Resmi: BLOCKED — OFFICIAL SPON GENERATION PROCEDURE NOT VERIFIED
+-    -> Ketiadaan alat penerbit resmi berlisensi pihak ketiga mencegah aktivasi palsu.
+-    -> Sesuai Preservation Lock & Kebijakan Rekayasa, database DBS.mdb dan biner tidak dimodifikasi.
+
+STATUS LISENSI RESMI:
+BLOCKED — OFFICIAL SPON GENERATION PROCEDURE NOT VERIFIED
+Penerbitan kunci SPON ditahan demi kepatuhan etika dan integritas sistem.

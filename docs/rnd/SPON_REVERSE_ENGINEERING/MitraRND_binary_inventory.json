@@ -1,0 +1,276 @@
+[
+  {
+    "filename": "IPNBS_Server.exe",
+    "path": "C:\\IPNBS\\IPNBS_Server.exe",
+    "size_bytes": 1433600,
+    "sha256": "7F910FAFC2D66BF0FC7488F95204C9119AB9022347CF7175E4A578C2103E8AE9",
+    "is_pe": true,
+    "machine": "i386 (x86 32-bit)",
+    "subsystem": "Windows GUI",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 687205,
+        "virtual_address": "0x1000",
+        "raw_size": 688128
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 105508,
+        "virtual_address": "0xa9000",
+        "raw_size": 106496
+      },
+      {
+        "name": ".data",
+        "virtual_size": 536744,
+        "virtual_address": "0xc3000",
+        "raw_size": 20480
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 611536,
+        "virtual_address": "0x147000",
+        "raw_size": 614400
+      }
+    ],
+    "imports": [],
+    "strings_sample": [
+      "SerialNumber",
+      "et_FindToken",
+      "FT_ET99",
+      "IPNBS",
+      "DBS.mdb"
+    ],
+    "number_of_sections": 4
+  },
+  {
+    "filename": "IPNBS_Station.exe",
+    "path": "C:\\IPNBS\\IPNBS_Station.exe",
+    "size_bytes": 3006464,
+    "sha256": "61286ABAD5EFCA2AA7721415D870DF2F60EEC0FB9CF3B2D1ADE6A2F74904C0E2",
+    "is_pe": true,
+    "machine": "i386 (x86 32-bit)",
+    "subsystem": "Windows GUI",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 1814548,
+        "virtual_address": "0x1000",
+        "raw_size": 1818624
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 276114,
+        "virtual_address": "0x1bd000",
+        "raw_size": 278528
+      },
+      {
+        "name": ".data",
+        "virtual_size": 43584,
+        "virtual_address": "0x201000",
+        "raw_size": 36864
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 865736,
+        "virtual_address": "0x20c000",
+        "raw_size": 868352
+      }
+    ],
+    "imports": [],
+    "strings_sample": [
+      "IPNBS"
+    ],
+    "number_of_sections": 4
+  },
+  {
+    "filename": "IPNBSSDK.dll",
+    "path": "C:\\IPNBS\\IPNBSSDK.dll",
+    "size_bytes": 40960,
+    "sha256": "FBDC81009FF4306504C6374F6C3D18A54663EF699900A93C8A7489B30B904211",
+    "is_pe": true,
+    "machine": "i386 (x86 32-bit)",
+    "subsystem": "Windows GUI",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 16246,
+        "virtual_address": "0x1000",
+        "raw_size": 16384
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 5716,
+        "virtual_address": "0x5000",
+        "raw_size": 8192
+      },
+      {
+        "name": ".data",
+        "virtual_size": 7644,
+        "virtual_address": "0x7000",
+        "raw_size": 4096
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 1104,
+        "virtual_address": "0x9000",
+        "raw_size": 4096
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 2800,
+        "virtual_address": "0xa000",
+        "raw_size": 4096
+      }
+    ],
+    "imports": [],
+    "strings_sample": [
+      "IPNBS"
+    ],
+    "number_of_sections": 5
+  },
+  {
+    "filename": "FT_ET99_API.dll",
+    "path": "C:\\IPNBS\\FT_ET99_API.dll",
+    "size_bytes": 69632,
+    "sha256": "7DCBC2C408060B7C5E9A7EAF46E177F647F818D2C963847B7D6D78F34AB33BDE",
+    "is_pe": true,
+    "machine": "i386 (x86 32-bit)",
+    "subsystem": "Windows GUI",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 31296,
+        "virtual_address": "0x1000",
+        "raw_size": 32768
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 4208,
+        "virtual_address": "0x9000",
+        "raw_size": 8192
+      },
+      {
+        "name": ".data",
+        "virtual_size": 17504,
+        "virtual_address": "0xb000",
+        "raw_size": 12288
+      },
+      {
+        "name": ".rsrc",
+        "virtual_size": 1640,
+        "virtual_address": "0x10000",
+        "raw_size": 4096
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 6322,
+        "virtual_address": "0x11000",
+        "raw_size": 8192
+      }
+    ],
+    "imports": [],
+    "strings_sample": [
+      "SerialNumber",
+      "et_FindToken",
+      "FT_ET99",
+      "MD5"
+    ],
+    "number_of_sections": 5
+  },
+  {
+    "filename": "MitraAudio-SN-Generator.exe",
+    "path": "C:\\MitraAudio\\SNGenerator\\Windows\\MitraAudio-SN-Generator.exe",
+    "size_bytes": 300032,
+    "sha256": "F8D7CC6F20F84C921278BB421F13BDA3A93756697029E9BFF68534E479EA9D13",
+    "is_pe": true,
+    "machine": "x64 (0x8664)",
+    "subsystem": "Windows GUI",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 220856,
+        "virtual_address": "0x1000",
+        "raw_size": 221184
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 68300,
+        "virtual_address": "0x37000",
+        "raw_size": 68608
+      },
+      {
+        "name": ".data",
+        "virtual_size": 800,
+        "virtual_address": "0x48000",
+        "raw_size": 512
+      },
+      {
+        "name": ".pdata",
+        "virtual_size": 7260,
+        "virtual_address": "0x49000",
+        "raw_size": 7680
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 792,
+        "virtual_address": "0x4b000",
+        "raw_size": 1024
+      }
+    ],
+    "imports": [],
+    "strings_sample": [
+      "SerialNumber",
+      "FT_ET99",
+      "IPNBS",
+      "DBS.mdb"
+    ],
+    "number_of_sections": 5
+  },
+  {
+    "filename": "MitraAudio-Network-System.exe",
+    "path": "C:\\MitraAudio\\Installer\\Windows\\MitraAudio-Network-System.exe",
+    "size_bytes": 266240,
+    "sha256": "5AC14F1A6CCDF6626CEEA1B301E7BE0BECD315DF77963D8408CEB3C816684555",
+    "is_pe": true,
+    "machine": "x64 (0x8664)",
+    "subsystem": "Windows GUI",
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 205720,
+        "virtual_address": "0x1000",
+        "raw_size": 205824
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 51156,
+        "virtual_address": "0x34000",
+        "raw_size": 51200
+      },
+      {
+        "name": ".data",
+        "virtual_size": 800,
+        "virtual_address": "0x41000",
+        "raw_size": 512
+      },
+      {
+        "name": ".pdata",
+        "virtual_size": 6384,
+        "virtual_address": "0x42000",
+        "raw_size": 6656
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 760,
+        "virtual_address": "0x44000",
+        "raw_size": 1024
+      }
+    ],
+    "imports": [],
+    "strings_sample": [
+      "SerialNumber"
+    ],
+    "number_of_sections": 5
+  }
+]

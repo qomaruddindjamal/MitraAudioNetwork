@@ -1,0 +1,48 @@
+{
+  "components": {
+    "IPNBS_Server.exe": {
+      "exists": true,
+      "path": "C:\\IPNBS\\IPNBS_Server.exe",
+      "size": 1433600,
+      "role": "CORE"
+    },
+    "IPNBS_Station.exe": {
+      "exists": true,
+      "path": "C:\\IPNBS\\IPNBS_Station.exe",
+      "size": 3006464,
+      "role": "CLIENT"
+    },
+    "IPNBSSDK.dll": {
+      "exists": true,
+      "path": "C:\\IPNBS\\IPNBSSDK.dll",
+      "size": 40960,
+      "role": "SDK"
+    },
+    "FT_ET99_API.dll": {
+      "exists": true,
+      "path": "C:\\IPNBS\\FT_ET99_API.dll",
+      "size": 69632,
+      "role": "SECURITY"
+    },
+    "IPNBS_Server.ini": {
+      "exists": true,
+      "path": "C:\\IPNBS\\IPNBS_Server.ini",
+      "size": 1960,
+      "role": "CORE"
+    },
+    "DBS.mdb": {
+      "exists": true,
+      "path": "C:\\IPNBS\\DATABASE\\DBS.mdb",
+      "size": 4292608,
+      "role": "STORAGE"
+    }
+  },
+  "ini_configuration": {
+    "SerialNumber": "64E8A-A8F0C-2B1EC-BC7DC-0B05",
+    "nTerminalPortRcv": "2046",
+    "nTerminalPortSnd": "2048",
+    "dwIPServer": "-1062731670"
+  },
+  "et99_dependency": "Hardware dongle token detected via FT_ET99_API.dll import. If absent, fallback reads SerialNumber from IPNBS_Server.ini.",
+  "license_architecture": "Ghidra confirmed RVA 0x00418F62 (et_FindToken), RVA 0x004190FE (29-char SN verify), and RVA 0x0043DB00 (MD5 hash validation)."
+}

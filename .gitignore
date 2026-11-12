@@ -1,0 +1,21 @@
+# Target build artifacts
+/target/
+**/target/
+
+# Local license files and runtime registrations
+*.lic
+*.dat
+*.log
+
+# Analysis work binaries and clones (keep scripts, ignore copied legacy binaries)
+analysis_work/**/*.exe
+analysis_work/**/*.dll
+analysis_work/**/*.ini
+analysis_work/**/*.map
+analysis_work/installer/
+analysis_work/spon_clone_test/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+*.tmp

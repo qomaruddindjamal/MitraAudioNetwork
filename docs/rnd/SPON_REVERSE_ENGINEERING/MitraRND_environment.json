@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-12T12:54:39.979898",
+  "os_name": "Windows",
+  "os_release": "11",
+  "os_version": "10.0.26200",
+  "machine_arch": "AMD64",
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "python_version": "3.14.7",
+  "python_executable": "C:\\Python314\\python.exe",
+  "cargo_version": "cargo 1.99.0 (5f94df478 2026-08-27)",
+  "rustc_version": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "is_admin": true,
+  "workspace_exists": true,
+  "legacy_spon_exists": true,
+  "installer_exists": true
+}

@@ -1,0 +1,23 @@
+[package]
+name = "mitra-customer-app"
+version = "0.1.0"
+edition = "2021"
+description = "Customer-facing Mitra Audio Network System Test Application with Native ID & License Registration GUI"
+authors = ["Mitra Audio Network System Engineering Team"]
+
+[dependencies]
+mitra-core = { path = "../mitra-core" }
+mitra-adapter-windows = { path = "../mitra-adapter-windows" }
+ed25519-dalek = { version = "2.1", default-features = false, features = ["alloc"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_Graphics_Gdi",
+    "Win32_System_LibraryLoader",
+    "Win32_System_SystemInformation",
+    "Win32_UI_Controls",
+    "Win32_System_DataExchange",
+    "Win32_System_Memory"
+] }

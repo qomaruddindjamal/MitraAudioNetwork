@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "crates/mitra-core",
+    "crates/mitra-pal",
+    "crates/mitra-adapter-windows",
+    "crates/mitra-sdk-c",
+    "crates/mitra-sn-generator",
+    "crates/mitra-customer-app",
+]
+resolver = "2"

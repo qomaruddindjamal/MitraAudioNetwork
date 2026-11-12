@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "local-ollama": {
+      "command": "python",
+      "args": [
+        "C:/Users/Administrator/.gemini/antigravity/mcp/ollama/server.py"
+      ]
+    },
+    "mitraai-bridge": {
+      "command": "python",
+      "args": [
+        "C:/Users/Administrator/.gemini/antigravity/mcp/mitraai/mcp_bridge.py"
+      ],
+      "env": {}
+    },
+    "antigravity-collaboration": {
+      "command": "python",
+      "args": [
+        "C:/Users/Administrator/.gemini/antigravity/mcp/collaboration/mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

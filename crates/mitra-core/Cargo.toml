@@ -1,0 +1,11 @@
+[package]
+name = "mitra-core"
+version = "0.1.0"
+edition = "2021"
+description = "Pure portable Shared Core domain logic for Mitra Audio Network System"
+authors = ["Mitra Audio Network System Engineering Team"]
+
+[dependencies]
+mitra-pal = { path = "../mitra-pal" }
+ed25519-dalek = { version = "2.1", default-features = false, features = ["alloc", "rand_core"] }
+sha2 = { version = "0.10", default-features = false }

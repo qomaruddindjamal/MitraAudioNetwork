@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-12T12:54:40.277020",
+  "evaluated_serial": "64E8A-A8F0C-2B1EC-BC7DC-0B05",
+  "simulated_adapter": {
+    "adapter_type": "SimulatedSponAdapter",
+    "classification": "SIMULATED",
+    "serial": "64E8A-A8F0C-2B1EC-BC7DC-0B05",
+    "format_valid": false,
+    "native_accepted": false,
+    "notice": "SIMULATED: Format validasi pola 5x5 alfanumerik (29 karakter), bukan bukti penerimaan oleh biner native SPON."
+  },
+  "authorized_native_adapter": {
+    "adapter_type": "AuthorizedNativeSponAdapter",
+    "classification": "NATIVE",
+    "target_system": "C:\\IPNBS",
+    "test_serial": "64E8A-A8F0C-2B1EC-BC7DC-0B05",
+    "status": "BLOCKED \u2014 OFFICIAL SPON GENERATION PROCEDURE NOT VERIFIED",
+    "evidence": "Vendor private seed hash algorithm and authorization protocol are unverified in repository. Preservation Lock forbids fake key generation."
+  }
+}
