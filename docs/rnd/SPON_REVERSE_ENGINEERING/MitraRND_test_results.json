@@ -3,12 +3,12 @@
     "command": "cargo test --workspace",
     "returncode": 0,
     "passed": true,
-    "output_tail": "0s\n\n\nrunning 3 tests\ntest test_sdk_ffi_control_commands ... ok\ntest test_sdk_ffi_session_lifecycle ... ok\ntest test_sdk_ffi_queries ... ok\n\ntest result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n"
+    "output_tail": "0s\n\n\nrunning 3 tests\ntest test_sdk_ffi_control_commands ... ok\ntest test_sdk_ffi_queries ... ok\ntest test_sdk_ffi_session_lifecycle ... ok\n\ntest result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n\nrunning 0 tests\n\ntest result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s\n\n"
   },
   "rust_clippy": {
     "command": "cargo clippy --workspace --all-targets -- -D warnings",
     "returncode": 0,
     "passed": true,
-    "output_tail": "    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s\n"
+    "output_tail": "    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.22s\n"
   }
 }
