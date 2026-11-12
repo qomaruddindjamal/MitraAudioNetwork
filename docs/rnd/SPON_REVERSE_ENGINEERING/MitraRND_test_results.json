@@ -9,6 +9,6 @@
     "command": "cargo clippy --workspace --all-targets -- -D warnings",
     "returncode": 0,
     "passed": true,
-    "output_tail": "    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.22s\n"
+    "output_tail": "    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s\n"
   }
 }
